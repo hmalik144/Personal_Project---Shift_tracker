@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.h_mal.shift_tracker.MainActivity">
+
+    <item
+        android:id="@+id/insert_placeholder_data"
+        android:orderInCategory="100"
+        android:title="@string/insert"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete_all"
+        android:orderInCategory="100"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+</menu>
